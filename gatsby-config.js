@@ -98,10 +98,18 @@ module.exports = {
         }]
       }
     },
+    'gatsby-plugin-netlify-cms-paths',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: 'gatsby-plugin-netlify-cms-paths',
+            options: {
+              // Path to your Netlify CMS config file
+              cmsConfig: '/static/admin/config.yml'
+            }
+          },
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-katex',
