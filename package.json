@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn clean && gatsby develop",
     "build": "gatsby clean && gatsby build",
-    "deploy": "yarn clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "yarn clean && gatsby build --prefix-paths && gh-pages -d public -b main",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
@@ -45,6 +45,7 @@
     "codecov": "^3.8.2",
     "gatsby": "^2.32.13",
     "gatsby-link": "^2.11.0",
+    "gatsby-lumen-post-cli": "^1.0.4",
     "gatsby-plugin-catch-links": "^2.10.0",
     "gatsby-plugin-feed": "^2.13.1",
     "gatsby-plugin-flow": "^1.10.0",

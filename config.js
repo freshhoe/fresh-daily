@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://fresh-daily.netlify.app',
   pathPrefix: '/',
   title: 'Fresh daily by freshhoe',
   subtitle: 'Fresh daily moments by conscious effort',
@@ -12,39 +12,27 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'All Posts',
+      label: 'Posts',
       path: '/'
-    },
-    {
-      label: 'HTML&CSS',
-      path: '/post/HTML&CSS'
-    },
-    {
-      label: 'JavaScript',
-      path: '/post/JavaScript'
     },
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
     name: 'freshhoe',
     photo: '/photo.jpg',
-    bio: 'Front-end Developer',
+    bio: 'Fresh daily moments by conscious effort',
     contacts: {
       email: 'yh91211@gmail.com',
       facebook: '',
       telegram: '',
       twitter: '',
-      github: 'https://github.com/freshhoe',
+      github: 'freshhoe',
       rss: '',
       vkontakte: '',
-      linkedin: 'https://www.linkedin.com/in/freshhoe/',
+      linkedin: 'freshhoe',
       instagram: '',
       line: '',
       gitlab: '',
