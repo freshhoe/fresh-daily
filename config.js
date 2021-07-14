@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Fresh daily by freshhoe',
+  subtitle: 'Fresh daily moments by conscious effort',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,8 +12,16 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'All Posts',
       path: '/'
+    },
+    {
+      label: 'HTML&CSS',
+      path: '/post/HTML&CSS'
+    },
+    {
+      label: 'JavaScript',
+      path: '/post/JavaScript'
     },
     {
       label: 'About me',
@@ -25,19 +33,19 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'freshhoe',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Front-end Developer',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'yh91211@gmail.com',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: 'https://github.com/freshhoe',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'https://www.linkedin.com/in/freshhoe/',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
